@@ -1,0 +1,85 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\renewcommand{\refname}{Daftar Pustaka}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+\begin{document}
+
+\title{Analisis Implementasi dan Dampak Large Language Models (LLM) terhadap Interaksi Manusia dan Komputer\\
+}
+
+\author{\IEEEauthorblockN{Grace Mae Gozali\textsuperscript{a*}}
+\IEEEauthorblockA{\textit{Computer Science Department, School of Computer Science} \\
+\textit{Bina Nusantara University}\\
+Jakarta, Indonesia \\
+grace.gozali@binus.ac.id}
+\and
+\IEEEauthorblockN{Rubil, S.T., M.T.\textsuperscript{a*}}
+\IEEEauthorblockA{\textit{Computer Science Department, School of Computer Science} \\
+\textit{Bina Nusantara University}\\
+Jakarta, Indonesia \\
+rubil@binus.ac.id}
+\and
+}
+\maketitle
+
+\begin{abstract}
+Pada umumnya, Large Language Models (LLM) terbukti sudah merevolusi aspek kecerdasan buatan melalui kapabilitas pemrosesan bahasa murni yang mirip dengan manusia. Pengkajian ini bertujuan untuk menganalisa struktur dasar pada LLM. Ada yang menggunakan basis Transformer, mekanisme self-atttention, dan juga akibatnya terhadap kemampuan kerja dan daya guna manusia. Studi pustaka menemukan bahwa meski LLM mengoptimalkan kemampuan kerja yang komprehensif namun hambatan tentang data rekayasa dan etika penggunaan masih merupakan tantangan pokok. Studi ini berupaya menyampaikan pandangan mendalam tentang kapasitas serta limitasi LLM di dalam jaringan digital modern.
+\end{abstract}
+
+\section{Pendahuluan}
+Pengembangan inovasi sistem kecerdasan buatan telah meraih titik perubahan signifikan melalui kehadiran Large Language Models (LLM). Lain dari gaya AI lama yang memiliki limitasi pada pengerjaan tugas khusus, LLM mempunyai kapasitas pengartian yang ekstensif dalam mengerti dan menciptakan teks. Ini bisa terjadi karena peningkatan struktur saraf yang bisa mengolah banyak parameter data sekaligus.
+
+Tujuan dari studi ini yaitu untuk mendalami lebih lagi kemampuan kerja laravel secara teknis serta menilai efisiensinya dalam membedah tugas yang kompleks. Pusat utama hendak ditujukan kepada stuktur Transformer sebagai basis pokok dari berbagai model yang marak sekarang ini.
+\section{Landasan Teori}
+
+\subsection{Struktur Transformer}
+
+Pertama kali Transformer diluncurkan pada tahun 2017, dengan sistem attention agar mudah mengerti keterkaitan antara dua kata atau lebih dalam satu kalimat tanpa memperhatikan intervalnya. Ini lain dari versi RNN (Recurrent Neural Networks) yang mengolah data secara berurutan dan mudah hilang kerangka pada situasi kalimat panjang.
+
+\subsection{Pre-training serta Fine-tuning}
+
+Di dalam pembuatan Large Language Models (LLM), ada dua hal penting yang perlu diperhatikan, hal pertama ialah Pre-training, dan yang kedua Fine-tuning. Dalam proses Pre-training, LLM mempelajari big dataset dari jaringan internet agar pemahaman tentang pola dan gaya bahasanya meningkat. Kemudian proses yang menuntut pengguna mengerjakan pekerjaan yang lebih spesifik mulai dari mendukung pemrograman, menjawab pertanyaan medis, melayani pelanggan, dan merespon sesuai konteks merupakan proses Fine-tuning.
+
+\section{Analisis dan Pembahasan}
+
+\subsection{Kelebihan utama dari User Experience}\label{AA}
+Menurut pandangan UI/UX, interaksi yang tadinya berbasis klik dapat diganti menjadi interaksi berbasis percakapan dengan adanya LLM. Beban kerja mental menjadi lebih ringan dikarenakan adanya sistem yang memahami maksud dari pengguna secara instan dengan menggunakan pola bahasa sehari-hari.
+
+\subsection{Hambatan: Bias dan Halusinasi}
+Tantangan paling besar LLM saat ini salah satunya adalah "halusinasi", sebuah kondisi dimana LLM memberikan hasil olahan data yang seolah-olah terdengar meyakinkan namun tidak sesuai fakta. Tidak hanya itu, oleh sebab dilatih menggunakan big data yang ada di internet, data yang masuk tidak tersaring dengan baik dan berisiko menjadi kurang objektif dalam menilai bias rasial, sosial, dan juga gender yang ada dalam jaringan database tersebut.
+
+
+\section{Metodologi Penelitian}
+
+Pengkajian ini melibatkan pengumpulan data secara kualitatif dengan teknik tinjauan pustaka yang terstruktur. Kapasitas dari berbagai versi LLM berdasarkan tingkat ketepatan dan efektivitas komputasi dibandingkan dengan mengandalkan data yang terkumpul dari beberapa publikasi ilmiah dan dokumentasi teknis dari perancang kecerdasan buatan ternama.
+
+\section{Kesimpulan}
+
+Dalam studi penelitian ini dapat dipelajari bahwa Large Language Models (LLM) menghadirkan pemahaman perdana dalam era digitalisasi, terlebih dalam proses interaksi manusia dengan sistem komputer. Struktur Transformer yang baik meningkatkan kapasitas model LLM untuk mengerti kompleksitas pola bahasa manusia, kemudian pengguna merasa dimudahkan dan intesitas penggunaan kecerdasan buatan semakin sering digunakan. Jika dilihat dari perspektif UI/UX, proses perubahan menuju UI yang lebih interaktif yang ditunjang oleh LLM teruji dapat meminimalisir beban kerja mental yang dialami oleh pengguna sebab pengguna hanya perlu menggunakan gaya bahasa sehari-hari yang biasa mereka pakai dan tidak lagi menggunakan logika komputasi yang kaku.
+
+Meskipun terlihat sangat menjanjikan untuk memudahkan kehidupan pengguna, tetap ada beberapa hambatan dari LLM yang penting untuk diperhatikan. Terkait isu halusinasi data dan kemungkinan terjadinya bias dalam pengolahan data masih menjadi permasalahan yang harus ditangani, terlebih apabila model diperlukan pada situasi yang penting, sebagai contoh situasi hukum ataupun medis. Dalam proses pengembangannya, LLM juga memanfaatkan efisiensi energi dalam jumlah besar sehingga perlu diperhatikan dan mendapat fokus lebih banyak agar kelangsungan sumber daya tidak menjadi dampaknya.
+
+Tingkat ketepatan data dan seberapa akuratnya informasi  yang menjadi hasil olahan data dari sistem LLM harus mendapat perhatian pokok selanjutnya. Kesuksesan penggunaan LLM kedepannya sangat bergantung pada kapasitas pengolahan informasi dan juga prinsip dasar antarmuka yang terintegrasi dengan baik. 
+Agar pengguna bisa merasa lebih percaya terhadap tingkat akurasi dari hasil pengolahan informasi yang diberikan oleh sistem LLM maka dibutuhkan pengkajian yang lebih mendalam tentang antarmuka yang interaktif dan intuitif.
+
+\begin{thebibliography}{00}
+
+\bibitem{Devlin} J. Devlin, M. W. Chang, K. Lee, and K. Toutanova, ``BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding,'' \emph{arXiv preprint arXiv:1810.04805}, 2018.
+\bibitem{Brown} T. Brown et al., ``Language Models are Few-Shot Learners,'' in \emph{Advances in Neural Information Processing Systems}, vol. 33, 2020, pp. 1877--1901.
+\bibitem{Achiam} Achiam, J. et al. (2023). GPT-4 technical report. \emph{arXiv preprint arXiv:2303.08774}. [Online]. Available: https://arxiv.org/abs/2303.08774
+\bibitem{Touvron} H. Touvron et al., ``Llama 2: Open Foundation and Fine-Tuned Chat Models,'' \emph{arXiv preprint arXiv:2307.09288}, 2023.
+\bibitem{Zhao} W. X. Zhao et al., ``A Survey of Large Language Models,'' \emph{arXiv preprint arXiv:2303.18223}, 2023.
+\bibitem{Bommasani} R. Bommasani et al., ``On the Opportunities and Risks of Foundation Models,'' \emph{arXiv preprint arXiv:2108.07258}, 2021.
+\bibitem{Chen} Chen, H., Wang, L., Yuan, H. (2024). Simultaneous measurement of multiple incompatible observables and tradeoff in multiparameter quantum estimation. \emph{arXiv preprint arXiv:2310.11925v2}. [Online]. Available: https://arxiv.org/abs/2310.11925
+\end{thebibliography}
+
+\vspace{12pt}
+\end{document}
