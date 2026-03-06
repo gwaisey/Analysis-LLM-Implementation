@@ -9,9 +9,9 @@ This research explores the fundamental architecture of Large Language Models (LL
 
 ## Key Theoretical Foundations
 This paper integrates several cutting-edge academic references to support the technical analysis:
-- [cite_start]**Quantum Estimation & Information Theory**: Utilizing the latest framework from *Chen, H., Wang, L., & Yuan, H. (2024)* regarding the simultaneous measurement of incompatible observables and its tradeoff in information tasks.
-- **Transformer & Generative Pre-training**: Building upon the foundational work of *Radford, A., et al. (2018)[cite_start]*.
-- **Model Optimization**: Insights on BERT pre-training by *Devlin, J., et al. (2018)[cite_start]*  and fine-tuning strategies from *Touvron, H., et al. (2023)[cite_start]*.
+- **Quantum Estimation & Information Theory**: Utilizing the latest framework from *Chen, H., Wang, L., & Yuan, H. (2024)* regarding the simultaneous measurement of incompatible observables and its tradeoff in information tasks.
+- **Transformer & Generative Pre-training**: Building upon the foundational work of *Radford, A., et al. (2018)*.
+- **Model Optimization**: Insights on BERT pre-training by *Devlin, J., et al. (2018)*  and fine-tuning strategies from *Touvron, H., et al. (2023)*.
 
 ## Technical Stack
 - **Documentation**: LaTeX (IEEE Conference Template) 
